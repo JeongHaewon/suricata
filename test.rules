@@ -15,7 +15,7 @@ alert tcp any any -> any 80 (msg:"linoit rule"; content:"GET /users"; content:"H
 
 alert tcp any any -> any 80 (msg:"naevr rule"; content:"GET /"; content:"Host: naevr.com"; sid:10009; rev:1;)
 
-alert tcp any any -> any 80 (msg:"named rule"; content:"GET /games/ HTTP/1"; content:"Host: named.com"; sid:10010; rev:1;)
+alert tcp any any -> any 80 (msg:"named rule"; content:"GET /games/ HTTP/1."; content:"Host: named.com"; sid:10010; rev:1;)
 
 alert tcp any any -> any 80 (msg:"naver6 rule"; content:"GET /"; content:"Host: naver6.com"; sid:10011; rev:1;)
 
@@ -27,7 +27,7 @@ alert tcp any any -> any 80 (msg:"rodong rule"; content:"GET /"; content:"Host: 
 
 alert tcp any any -> any 80 (msg:"snoopspy rule"; content:"GET /download"; content:"Host: snoopspy.com"; sid:10015; rev:1;)
 
-alert tcp any any -> any 80 (msg:"test gilgil mp4 rule"; content:"GET /streaming/test.mp4 HTTP/1"; content:"Host: test.gilgil.net"; sid:10016; rev:1;)
+alert tcp any any -> any 80 (msg:"test gilgil mp4 rule"; content:"GET /streaming/test.mp4 HTTP/1."; content:"Host: test.gilgil.net"; sid:10016; rev:1;)
 
 alert tcp any any -> any 80 (msg:"uriminzokkiri rule"; content:"GET /"; content:"Host: uriminzokkiri.com"; sid:10017; rev:1;)
 
@@ -35,7 +35,7 @@ alert tcp any any -> any 80 (msg:"4shared rule"; content:"GET /"; content:"Host:
 
 alert tcp any any -> any 80 (msg:"bamwar25 rule"; content:"GET /"; content:"Host: www.bamwar25.com"; sid:10019; rev:1;)
 
-alert tcp any any -> any 80 (msg:"faa25 rule"; content:"GET /HTTP/1.1"; content:"Host: faa25.com"; sid:10020; rev:1;)
+alert tcp any any -> any 80 (msg:"faa25 rule"; content:"GET /HTTP/1."; content:"Host: faa25.com"; sid:10020; rev:1;)
 
 alert tcp any any -> any 80 (msg:"ilbe rule"; content:"GET /ilbe"; content:"Host: ilbe.com"; sid:10021; rev:1;)
 
@@ -61,9 +61,9 @@ alert tcp any any -> any 80 (msg:"umj262 rule"; content:"GET /"; content:"Host: 
 
 alert tcp any any -> any 80 (msg:"uriminzokkiri rule"; content:"GET /"; content:"Host: uriminzokkiri.com"; sid:10033; rev:1;)
 
-alert tcp any any -> any 80 (msg:"winclub88 rule"; content:"GET /my/4D.html HTTP/1"; content:"Host: winclub88.net"; sid:10034; rev:1;)
+alert tcp any any -> any 80 (msg:"winclub88 rule"; content:"GET /my/4D.html HTTP/1."; content:"Host: winclub88.net"; sid:10034; rev:1;)
 
-alert tcp any any -> any 80 (msg:"graphgame rule"; content:"GET / HTTP/1.1"; content:"Host: ss.symcd.com"; sid:10035; rev:1;)
+alert tcp any any -> any 80 (msg:"graphgame rule"; content:"GET / HTTP/1."; content:"Host: ss.symcd.com"; sid:10035; rev:1;)
 
 alert tcp any any -> any 80 (msg:"mujige53770 rule"; content:"GET /"; content:"Host: https://mujige53770.wixsite.com"; sid:10036; rev:1;)
 
